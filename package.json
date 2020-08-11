@@ -1,0 +1,27 @@
+{
+  "name": "jest-course-platzi",
+  "version": "1.0.0",
+  "description": "just unit testing using jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "jest",
+    "unit",
+    "testing"
+  ],
+  "author": "billi ramirez <ramirezbilly42@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.3.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
